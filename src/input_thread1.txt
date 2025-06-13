@@ -1,0 +1,11 @@
+create file5.txt
+open file5.txt,w
+write_to_file file5.txt,"abcd"
+create file4.txt
+open file4.txt,w
+show_memory_map
+write_to_file file4.txt,"123"
+write_to_file file5.txt,"xyz"
+close file5.txt
+close file4.txt
+show_memory_map

@@ -1,0 +1,31 @@
+File file5.txt created.
+File file5.txt opened in w mode.
+Data written to file file5.txt.
+File file4.txt created.
+File file4.txt opened in w mode.
+Displaying memory map.
+
+File Memory
+fileA.txt of 62 bytes at blocks [3200, 3232]
+fileB.txt of 68 bytes at blocks [3264, 3296, 3328]
+file.txt of 64 bytes at blocks [3360, 3392]
+file1.txt of 7 bytes at blocks [3424]
+file5.txt of 4 bytes at blocks [3488]
+file2.txt of 3 bytes at blocks [3456]
+file4.txt of 0 bytes
+
+Data written to file file4.txt.
+Data written to file file5.txt.
+File file5.txt closed.
+File file4.txt closed.
+Displaying memory map.
+
+File Memory
+fileA.txt of 62 bytes at blocks [3200, 3232]
+fileB.txt of 68 bytes at blocks [3264, 3296, 3328]
+file.txt of 64 bytes at blocks [3360, 3392]
+file1.txt of 7 bytes at blocks [3424]
+file5.txt of 7 bytes at blocks [3488]
+file2.txt of 3 bytes at blocks [3456]
+file4.txt of 3 bytes at blocks [3520]
+
