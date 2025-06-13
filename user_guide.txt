@@ -1,0 +1,29 @@
+USER GUIDE
+- Open the File-System directory and run main.py <threads number> to use the file system.
+- The existing sample.dat file will be loaded.
+- sample.dat is built with the preset settings in settings.py. These settings are ideal for a demo. They can be changed by simply modifying the file. sample.dat must be deleted for new settings to be applied.
+- Create a new .txt file with the commands for each thread you wish to run with the name input_thread<x>.txt
+- The output of each thread will be written to output_thread<x>.txt
+
+All the following commands support relative and absolute paths
+Absolute Paths start with /, for example "/dirA/dirA1"
+COMMANDS
+ls - shows the current directories children
+mkdir dir_path - creates a directory in the current directory
+chdir dir_path - changes the current directory
+create file_name - creates a file
+delete_file file_name - deletes a file
+delete_dir dir_name - deletes a directory
+move_file src, dest - moves a file src to dest
+move_dir src, dest - moves a directory src to dest
+show_memory_map - shows entire directory structure and disk memory map of every file
+open file_name, mode - opens a file in mode, valid modes are r, a, w, r+, a+, w+
+close file_name - closes a file
+
+Following commands require an open file as argument
+write_to_file file_name, content - writes content to the end of the file
+write_to_file file_name, content, write_at - writes content at write_at
+read_from_file file_name - reads entire file
+read_from_file file_name, start, size - reads size bytes from start
+move_within_file file_name, src, dest, size - moves size bytes from src to dest
+truncate_file file_name, size - truncates the file to size bytes
